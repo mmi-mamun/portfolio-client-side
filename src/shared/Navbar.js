@@ -5,9 +5,9 @@ import navLogo from '../../src/assets/logo/logo-1.png'
 const Navbar = () => {
     const menuItem = <>
         <li className='font-bold'><Link to="/">Home</Link></li>
-        <li className='font-bold'><Link to="/">Skills</Link></li>
-        <li className='font-bold'><Link to="/">Projects</Link></li>
-        <li className='font-bold'><Link to="/">About</Link></li>
+        <li className='font-bold'><Link to="/skills">Skills</Link></li>
+        <li className='font-bold'><Link to="/projects">Projects</Link></li>
+        <li className='font-bold'><Link to="/about">About</Link></li>
     </>
     return (
         <div className="navbar bg-base-100 flex justify-between">

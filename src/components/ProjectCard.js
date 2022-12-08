@@ -6,7 +6,7 @@ const ProjectCard = ({ project }) => {
         <div className="card card-compact w-96 bg-base-100 shadow-xl mx-auto">
             <figure><img className='h-50 w-full' src={img} alt="Shoes" /></figure>
             <div className="card-body">
-                <h2 className="card-title">
+                <h2 className="card-title text-purple-600">
                     {projectName}
                     {
                         project.project_id === 1 && <div className="badge badge-secondary">NEW</div>
