@@ -1,0 +1,62 @@
+[
+    {
+        "project_id": 1,
+        "projectName": "Mobile Planet",
+        "img": "https://i.ibb.co/hCzzSNZ/mobile-Planet.png",
+        "technologies": "React JS, React Router, Tailwind CSS, daisyUI, Firebase Authentication, React Stripe.js, MongoDB, Node JS, Express JS.",
+        "bulletPoint1": "This website is about buying and selling conditional mobiles.",
+        "bulletPoint2": "Here, users can role three different ways such as admin, buyer or seller.",
+        "bulletPoint3": "Post and send advertise for seller, book and payment function for buyer is included in this project.",
+        "description": "This project is for these types of people whom are interested to sell and buying second hand product. Every people can visit this website and visit home page."
+    },
+    {
+        "project_id": 2,
+        "projectName": "Skill Learning",
+        "img": "https://i.ibb.co/fFj5Pcv/skill-Learning.png",
+        "technologies": "React JS, React Router, Tailwind CSS, daisyUI, Firebase Authentication, MongoDB, Node JS,Express JS.",
+        "bulletPoint1": "This project is about learning platform and user needs to Login or Sign up for the checkout page.",
+        "bulletPoint2": "Users can enroll in any kind of course and get deep knowledge about these courses.",
+        "bulletPoint3": "Registered users are allowed to browse every page and can download each course in detail as a pdf.",
+        "description": "This project is for dental patient. People can visit this website and get information about services. Any one can browse this page, everything is opened for all without Review section.."
+    },
+    {
+        "project_id": 3,
+        "projectName": "Personal Dental Care",
+        "img": "https://i.ibb.co/ZSrwT5R/personal-Dental.png",
+        "technologies": " React JS, React Router, Tailwind CSS, daisyUI, Firebase Authentication, MongoDB, Node,JS, Express JS.",
+        "bulletPoint1": "Service-related project",
+        "bulletPoint2": "Registered users will get and add services and give reviews.",
+        "bulletPoint3": "Registered users can update, delete and see their reviews",
+        "description": "This project is for develop skill and career by training system. Student can enrolled any kinds of courses and get deep knowledge about these courses. Any one can browse this page, everything is opened for all without Checkout page.."
+    },
+    {
+        "project_id": 4,
+        "projectName": "Quiz Everyday",
+        "img": "https://i.ibb.co/b5Kbd6q/quiz-Everyday.png",
+        "technologies": "React JS, React Router, Bootstrap, Firebase Authentication",
+        "bulletPoint1": "4.7",
+        "bulletPoint2": "4.5",
+        "bulletPoint3": "4.5",
+        "description": "This website is for testing knowledge about programming skill such as javaScript, html, css , react. Students are welcomed here and give test by quiz."
+    },
+    {
+        "project_id": 5,
+        "projectName": "ACTIVE-GYM-CLUB",
+        "img": "https://i.ibb.co/Df2NVqz/actibe-GYMclub.png",
+        "technologies": "2350",
+        "bulletPoint1": "5",
+        "bulletPoint2": "4.5",
+        "bulletPoint3": "4.5",
+        "description": "This project is about GYM or exercise lover people. By using this website, people determine their exercise details by adding exercise list and selecting break-time."
+    },
+    {
+        "project_id": 6,
+        "projectName": "Type skill",
+        "img": "https://i.ibb.co/fD4xdyN/typing-Skill.png",
+        "technologies": "1600",
+        "bulletPoint1": "4.8",
+        "bulletPoint2": "4.5",
+        "bulletPoint3": "4.5",
+        "description": "This project is for check about typing skill. User perform by following specific sentence which will given. After the test, user can see his/her mistakes and typing time"
+    }
+]

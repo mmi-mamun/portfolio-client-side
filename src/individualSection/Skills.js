@@ -1,5 +1,4 @@
 import React from 'react';
-import reactIcon from '../../src/assets/icons/icon-react.png'
 import htmlIcon from '../../src/assets/icons/icon-html5.png'
 import iconCSS3 from '../../src/assets/icons/icon-css3.png'
 import iconBootstrap from '../../src/assets/icons/icon-bootstrap.png'
@@ -50,11 +49,11 @@ const Skills = () => {
             name: 'React JS',
             icon: iconReactJs
         },
-        {
-            customId: 7,
-            name: 'HTML5',
-            icon: htmlIcon
-        },
+        // {
+        //     customId: 7,
+        //     name: 'HTML5',
+        //     icon: htmlIcon
+        // },
         {
             customId: 8,
             name: 'Node JS',
@@ -104,8 +103,8 @@ const Skills = () => {
     ]
     return (
         <div className='mx-auto p-12'>
-            <h1 className="text-5xl text-center text-orange-600 font-bold">Skills</h1>
-            <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5'>
+            <h1 className="text-5xl text-center text-orange-600 font-bold my-12">Skills</h1>
+            <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8'>
                 {
                     skills.map(skill => <SkillCard key={skill.customId} skill={skill}></SkillCard>)
                 }
