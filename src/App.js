@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
+import router from './routes/Router';
+import Footer from './shared/Footer';
+import Navbar from './shared/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <button className="btn btn-active">Button</button>
-      <button className="btn btn-active btn-primary">Button</button>
-      <button className="btn btn-active btn-secondary">Button</button>
+    <div>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
