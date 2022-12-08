@@ -10,10 +10,13 @@ const Projects = () => {
             .then(data => setProjects(data.slice(0, 2)))
     }, [projects])
     return (
-        <div className='px-10'>
+        <div className='px-10 my-12'>
+            <div className="divider"></div>
             {/* <p>{projects.length}</p> */}
             <div className="mb-5">
                 <h1 className="text-5xl text-center text-orange-600 font-bold">Feature Projects</h1>
+                <div className="divider">OR</div>
+                <h5 className="text-xl text-center mt-2 mb-12 font-bold">Things I have built that prove my skills and capacity regarding the technologies I mentioned.</h5>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5 my-5 p-5 mx-auto">
                 {
@@ -29,6 +32,7 @@ const Projects = () => {
                     </button>
                 </Link>
             </div>
+            <div className="divider"></div>
         </div>
     );
 };

@@ -15,10 +15,11 @@ const Banner = () => {
                     <h3 className="text-3xl text-orange-600 font-semibold my-3">I build web apps!</h3>
                     <p className="py-2 mb-5 text-xl">I'm a developer based in Dhaka, Bangladesh</p>
 
-                    {/* <button className="btn btn-primary h-14 bg-gradient-to-r from-purple-500 to-orange-600"> <FaDownload className='mx-3'></FaDownload> RESUME</button> */}
 
-                    <Link to="/Resume_of_Mamun.pdf" download={true} target="_blank">Download Resume</Link>
-                    <a href="https://drive.google.com/file/d/1-pcilZ8N2yuj8xQ5c558Mc3EviUjxPWr/view?usp=sharing" target="_blank" rel='noreferrer'>View Resume</a>
+
+                    <Link to="/Resume_of_Mamun.pdf" download={true} target="_blank">
+                        <button className="btn btn-primary h-14 bg-gradient-to-r from-purple-500 to-orange-600"> RESUME <FaDownload className='mx-3'></FaDownload></button>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaEye } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import navLogo from '../../src/assets/logo/logo-1.png'
 
@@ -30,7 +31,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link className="btn">Get started</Link>
+                {/* <Link className="btn"></Link> */}
+                <a className='btn btn-outline btn-primary btn-sm' href="https://drive.google.com/file/d/1-pcilZ8N2yuj8xQ5c558Mc3EviUjxPWr/view?usp=sharing" target="_blank" rel='noreferrer'><FaEye className='mr-2'></FaEye>Resume</a>
             </div>
         </div>
     );
