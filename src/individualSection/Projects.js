@@ -7,24 +7,23 @@ const Projects = () => {
     useEffect(() => {
         fetch('projects.json')
             .then(res => res.json())
-            .then(data => setProjects(data.slice(0, 2)))
+            .then(data => setProjects(data.slice(0, 3)))
     }, [projects])
     return (
-        <div className='px-10 my-12'>
+        <div className='px-10 md:px-12 lg:px-20 xl:px-32 2xl:px-40 my-12'>
             <div className="divider"></div>
             {/* <p>{projects.length}</p> */}
             <div className="mb-5">
-                <h1 className="text-5xl text-center text-orange-600 font-bold">Feature Projects</h1>
-                <div className="divider">OR</div>
+                <h1 className="text-5xl text-center text-orange-600 font-bold my-3">Feature Projects</h1>
                 <h5 className="text-xl text-center mt-2 mb-12 font-bold">Things I have built that prove my skills and capacity regarding the technologies I mentioned.</h5>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5 my-5 p-5 mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-10 lg:gap-12 mx-auto">
                 {
                     projects.map(project => <ProjectCard key={project.project_id} project={project}></ProjectCard>)
                 }
             </div>
 
-            <div className="text-center">
+            <div className="text-center pt-12">
                 <Link to="/projects">
                     <button className="btn gap-2">
                         See more
