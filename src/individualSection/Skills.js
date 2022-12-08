@@ -102,7 +102,7 @@ const Skills = () => {
 
     ]
     return (
-        <div className='mx-auto'>
+        <div className='mx-auto px-12'>
             <div className="divider"></div>
             <h1 className="text-5xl text-center text-orange-600 font-bold mt-6">Skills</h1>
             <h5 className="text-xl text-center mt-2 mb-12 font-bold">Programming languages, Frameworks, Libraries, Tools and Technologies currently I'm working on.</h5>
