@@ -9,6 +9,7 @@ const Navbar = () => {
         <li className='font-bold'><Link to="/skills">Skills</Link></li>
         <li className='font-bold'><Link to="/projects">Projects</Link></li>
         <li className='font-bold'><Link to="/about">About</Link></li>
+        <li className='font-bold'><Link to="/contact">Contact Me</Link></li>
     </>
     return (
         <div className="navbar bg-base-100 flex justify-between">

@@ -3,6 +3,7 @@ import AllProjects from "../individualSection/AllProjects";
 import Skills from "../individualSection/Skills";
 import Main from "../layout/Main";
 import About from "../pages/About";
+import Contact from "../pages/Contact";
 import FourOFour from "../pages/FourOFour";
 import Home from "../pages/Home";
 
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
             {
                 path: '/about',
                 element: <About></About>
+            },
+            {
+                path: '/contact',
+                element: <Contact></Contact>
             },
             {
                 path: '*',
