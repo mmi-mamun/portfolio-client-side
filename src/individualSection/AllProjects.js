@@ -11,7 +11,7 @@ const AllProjects = () => {
 
 
     return (
-        <div className='px-10'>
+        <div className='px-10 md:px-12 lg:px-20 xl:px-32 2xl:px-40 my-12'>
             {/* <p>{projects.length}</p> */}
             <div className="mb-5">
                 <h1 className="text-5xl text-center text-orange-600 font-bold">Feature Projects</h1>
