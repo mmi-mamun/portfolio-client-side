@@ -3,6 +3,7 @@ import AllProjects from "../individualSection/AllProjects";
 import Skills from "../individualSection/Skills";
 import Main from "../layout/Main";
 import About from "../pages/About";
+import Blogs from "../pages/Blogs";
 import Contact from "../pages/Contact";
 import FourOFour from "../pages/FourOFour";
 import Home from "../pages/Home";
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
             {
                 path: '/resume',
                 element: <ViewResume></ViewResume>
+            },
+            {
+                path: '/blogs',
+                element: <Blogs></Blogs>
             },
             {
                 path: '*',
